@@ -124,7 +124,7 @@ public class MD5 {
 
 							break;
 						}
-					}while((linha = leitor.readLine()) != null);
+					}while(linha != null);
 
 					arq.close();
 					gravarArq.close();
@@ -168,6 +168,8 @@ public class MD5 {
 			}
 					
 		}while(option != 3);
+
+		lerUsuario.close();
 		   
 	}
 }
